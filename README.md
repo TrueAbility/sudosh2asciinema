@@ -51,3 +51,8 @@ sudosh-dir
     import "github.com/TrueAbility/sudosh2asciinema"
 
 Then look at Convert() or ConvertDirectory()
+
+## License
+
+Copyright (c) 2015 TrueAbility, Inc.
+MIT License, see LICENSE.txt for details
