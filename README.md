@@ -1,7 +1,7 @@
 
-# SUDOSH2ASCIINEMA
+# sudosh2asciinema
 
-Sudosh is a shell that captures a users input into two files per session.
+`sudosh` is a shell that captures a users input into two files per session.
 These log files are stored in `/var/log/sudosh` by default and are named
 
     root-root-time-1442065357-i6pmm9Eq6T6wQCOx
@@ -22,15 +22,14 @@ a `stdout` key
 
 The JSON structure looks like:
 
-version: 1
-width: tty-width
-height: tty-height
-duration: length-of-recording
-command: the-command-that-was-run
-title: title-of-recording
-env: env-variables
-stdout: an-array-of-commands, eg [0.000000, "ls -l"]
-
+    version: 1
+    width: tty-width
+    height: tty-height
+    duration: length-of-recording
+    command: the-command-that-was-run
+    title: title-of-recording
+    env: env-variables
+    stdout: an-array-of-commands, eg [0.000000, "ls -l"]
 
 sudosh2asciinema converts the sudosh files the asciinema formatn
 
