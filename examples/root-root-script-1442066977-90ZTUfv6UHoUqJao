@@ -1,0 +1,781 @@
+]0;root@as-41622:~[?1034h[0;33mroot@as-41622 [1;35m~[0m [0m# crontab -l
+no crontab for root
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# crontab -e
+no crontab for root - using an empty one
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/tmp/crontab.Zm2tIY" 0L, 0C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l8[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l-[?12l[?25h[?25l7[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25l [?12l[?25h[?25l/[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25lr[?12l[?25h[?25l/[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25l/[?12l[?25h[?25lb[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l/[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l-[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l[1;37H[K[1;37H[?12l[?25h[?25l[1;36H[K[1;36H[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l[2;1H[K[2;1H[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l5[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l1[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25l [?12l[?25h[?25l/[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25lr[?12l[?25h[?25l/[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25l/[?12l[?25h[?25lb[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l/[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l-[?12l[?25h[?25lo[?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lp[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25ls[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[24;1H[K[3;1H[?25l[?12l[?25h[2;1H[40C[?25l[24;1H[1m-- INSERT --[2;42H[?12l[?25h[?25l[m [?12l[?25h[?25l>[?12l[?25h[?25l [?12l[?25h[?25l/[?12l[?25h[?25lv[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l/[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l/[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l-[?12l[?25h[?25lp[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l>[?12l[?25h[?25l&[?12l[?25h[?25l1[?12l[?25h[?25l[3;23r[3;1H[L[1;24r[3;1H[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25l [?12l[?25h[?25l/[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25lr[?12l[?25h[?25l/[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25l/[?12l[?25h[?25lb[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l/[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l-[?12l[?25h[?25ld[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lk[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25la[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l>[?12l[?25h[?25l [?12l[?25h[?25lv[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ll[?12l[?25h[?25l/[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l/[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l-[?12l[?25h[?25ld[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lk[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25la[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l>[?12l[?25h[?25l&[?12l[?25h[?25l1[?12l[?25h[?25l[4;23r[4;1H[L[1;24r[4;1H[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l1[?12l[?25h[?25l,[?12l[?25h[?25l1[?12l[?25h[?25l5[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25l [?12l[?25h[?25l/[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25lr[?12l[?25h[?25l/[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25l/[?12l[?25h[?25lb[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l/[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l-[?12l[?25h[?25la[?12l[?25h[?25lc[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l[4;53H[K[4;53H[?12l[?25h[?25ly[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25l-[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lp[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25l[4;66H[K[4;66H[?12l[?25h[?25l[4;65H[K[4;65H[?12l[?25h[?25l[4;64H[K[4;64H[?12l[?25h[?25l[4;63H[K[4;63H[?12l[?25h[?25l[4;62H[K[4;62H[?12l[?25h[?25l[4;61H[K[4;61H[?12l[?25h[?25l[4;60H[K[4;60H[?12l[?25h[?25l[4;59H[K[4;59H[?12l[?25h[?25l[?12l[?25h[?25l[4;57H[K[4;57H[?12l[?25h[?25l[4;56H[K[4;56H[?12l[?25h[?25l[4;55H[K[4;55H[?12l[?25h[?25l[4;54H[K[4;54H[?12l[?25h[?25l[4;53H[K[4;53H[?12l[?25h[?25l[4;52H[K[4;52H[?12l[?25h[?25l[4;51H[K[4;51H[?12l[?25h[?25l[?12l[?25h[?25l[4;49H[K[4;49H[?12l[?25h[?25l[4;48H[K[4;48H[?12l[?25h[?25l[?12l[?25h[?25l[4;46H[K[4;46H[?12l[?25h[?25l[4;45H[K[4;45H[?12l[?25h[?25l[4;44H[K[4;44H[?12l[?25h[?25l[4;43H[K[4;43H[?12l[?25h[?25l[4;42H[K[4;42H[?12l[?25h[?25l[4;41H[K[4;41H[?12l[?25h[?25l[4;40H[K[4;40H[?12l[?25h[?25l[4;39H[K[4;39H[?12l[?25h[?25l[4;38H[K[4;38H[?12l[?25h[?25l[4;37H[K[4;37H[?12l[?25h[?25l[4;36H[K[4;36H[?12l[?25h[?25l[4;35H[K[4;35H[?12l[?25h[?25l[4;34H[K[4;34H[?12l[?25h[?25l[4;33H[K[4;33H[?12l[?25h[?25l[4;32H[K[4;32H[?12l[?25h[?25l[4;31H[K[4;31H[?12l[?25h[?25l[4;30H[K[4;30H[?12l[?25h[?25l[4;29H[K[4;29H[?12l[?25h[?25l[4;28H[K[4;28H[?12l[?25h[?25l[4;27H[K[4;27H[?12l[?25h[?25l[4;26H[K[4;26H[?12l[?25h[?25l[4;25H[K[4;25H[?12l[?25h[?25l[4;24H[K[4;24H[?12l[?25h[?25l[4;23H[K[4;23H[?12l[?25h[?25l[4;22H[K[4;22H[?12l[?25h[?25l[4;21H[K[4;21H[?12l[?25h[?25l[4;20H[K[4;20H[?12l[?25h[?25l[4;19H[K[4;19H[?12l[?25h[?25l[4;18H[K[4;18H[?12l[?25h[?25l[?12l[?25h[?25l[4;16H[K[4;16H[?12l[?25h[?25l[?12l[?25h[?25l[4;14H[K[4;14H[?12l[?25h[?25l[4;13H[K[4;13H[?12l[?25h[?25l[?12l[?25h[?25l[4;11H[K[4;11H[?12l[?25h[?25l[4;10H[K[4;10H[?12l[?25h[?25l[4;9H[K[4;9H[?12l[?25h[?25l[4;8H[K[4;8H[?12l[?25h[?25l[4;7H[K[4;7H[?12l[?25h[?25l[?12l[?25h[?25l[4;5H[K[4;5H[?12l[?25h[?25l[4;4H[K[4;4H[?12l[?25h[?25l[?12l[?25h[?25l[4;2H[K[4;2H[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[24;1H[K[4;1H[?25l[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [4;1H[?12l[?25h[?25l~                                                                               [3;1H[?12l[?25h[?25l[24;1H[m:[?12l[?25hwq![?25l"/tmp/crontab.Zm2tIY" 3L, 185C written
+[?1l>[?12l[?25h[?1049lcrontab: installing new crontab
+"/tmp/crontab.Zm2tIY":1: bad day-of-month
+errors in crontab file, can't install.
+Do you want to retry the same edit? e
+Enter Y or N
+Do you want to retry the same edit? y
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/tmp/crontab.Zm2tIY" 3L, 185C[1;1H00 18 0-7 * * /usr/local/bin/rti-users
+00 15 01 * * /usr/local/bin/rti-openports > /var/log/rti-ports.log 2>&1
+00 * * * * /usr/local/bin/rti-diskusage > varl/log/rti-diskusage.log 2>&1
+[1m[34m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h[?25l[m[24;1H[K[24;1H:[?12l[?25hq![?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049lcrontab: installing new crontab
+"/tmp/crontab.Zm2tIY":1: bad day-of-month
+errors in crontab file, can't install.
+Do you want to retry the same edit? n
+crontab: edits left in /tmp/crontab.Zm2tIY
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# v[Kcd /var/spool
+]0;root@as-41622:/var/spool[0;33mroot@as-41622 [1;35mspool[0m [0m# ls -al
+total 36
+drwxr-xr-x  9 root   root   4096 Sep 11 21:22 [0m[01;34m.[0m
+drwxr-xr-x 20 root   root   4096 Sep 11 21:21 [01;34m..[0m
+drwxr-xr-x  2 root   root   4096 Sep 11 21:22 [01;34manacron[0m
+drwx------  2 root   root   4096 Sep 12 14:19 [01;34mcron[0m
+drwxr-xr-x  2 root   root   4096 Sep 23  2011 [01;34mlpd[0m
+drwxrwxr-x  2 root   mail   4096 Sep 12 13:50 [01;34mmail[0m
+drwxr-xr-x  3 nagios nagios 4096 Sep 11 21:21 [01;34mnagios[0m
+drwxr-xr-x  2 root   root   4096 Sep 11 21:12 [01;34mplymouth[0m
+drwxr-xr-x 16 root   root   4096 Jun  1 00:34 [01;34mpostfix[0m
+[m]0;root@as-41622:/var/spool[0;33mroot@as-41622 [1;35mspool[0m [0m# cd cron
+]0;root@as-41622:/var/spool/cron[0;33mroot@as-41622 [1;35mcron[0m [0m# ls -al
+total 8
+drwx------ 2 root root 4096 Sep 12 14:19 [0m[01;34m.[0m
+drwxr-xr-x 9 root root 4096 Sep 11 21:22 [01;34m..[0m
+[m]0;root@as-41622:/var/spool/cron[0;33mroot@as-41622 [1;35mcron[0m [0m# mkdir crontab
+]0;root@as-41622:/var/spool/cron[0;33mroot@as-41622 [1;35mcron[0m [0m# ls -al
+total 12
+drwx------ 3 root root 4096 Sep 12 14:19 [0m[01;34m.[0m
+drwxr-xr-x 9 root root 4096 Sep 11 21:22 [01;34m..[0m
+drwxr-xr-x 2 root root 4096 Sep 12 14:19 [01;34mcrontab[0m
+[m]0;root@as-41622:/var/spool/cron[0;33mroot@as-41622 [1;35mcron[0m [0m# cd crontab
+]0;root@as-41622:/var/spool/cron/crontab[0;33mroot@as-41622 [1;35mcrontab[0m [0m# ls -al
+total 8
+drwxr-xr-x 2 root root 4096 Sep 12 14:19 [0m[01;34m.[0m
+drwx------ 3 root root 4096 Sep 12 14:19 [01;34m..[0m
+[m]0;root@as-41622:/var/spool/cron/crontab[0;33mroot@as-41622 [1;35mcrontab[0m [0m# touch t[Kroot
+]0;root@as-41622:/var/spool/cron/crontab[0;33mroot@as-41622 [1;35mcrontab[0m [0m# ls -al
+total 8
+drwxr-xr-x 2 root root 4096 Sep 12 14:19 [0m[01;34m.[0m
+drwx------ 3 root root 4096 Sep 12 14:19 [01;34m..[0m
+-rw-r--r-- 1 root root    0 Sep 12 14:19 root
+[m]0;root@as-41622:/var/spool/cron/crontab[0;33mroot@as-41622 [1;35mcrontab[0m [0m# cd
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# pwd
+/root
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# vi[K[Kcrontab -e
+no crontab for root - using an empty one
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/tmp/crontab.0WoExu" 0L, 0C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?12l[?25h[?25l00 18 0-7 * * /usr/local/bin/rti-users
+00 15 01 * * /usr/local/bin/rti-openports > /var/log/rti-ports.log 2>&1[2;72H[K[3;1H00 * * * * /usr/local/bin/rti-diskusage > varl/log/rti-diskusage.log 2>&1[3;74H[K[4;1H[K[4;1H[?12l[?25h[24;1H[K[4;1H[?25l[?12l[?25h[?25l[1m[34m~                                                                               [3;1H[?12l[?25h[?25l[24;1H[m:[?12l[?25hwq![?25l"/tmp/crontab.0WoExu" 3L, 185C written
+[?1l>[?12l[?25h[?1049lcrontab: installing new crontab
+"/tmp/crontab.0WoExu":1: bad day-of-month
+errors in crontab file, can't install.
+Do you want to retry the same edit? n
+crontab: edits left in /tmp/crontab.0WoExu
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# crontab -e
+no crontab for root - using an empty one
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/tmp/crontab.ZoOlmz" 0L, 0C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?12l[?25h[?25l00 18 0-7 * * /usr/local/bin/rti-users
+00 15 01 * * /usr/local/bin/rti-openports > /var/log/rti-ports.log 2>&1[2;72H[K[3;1H00 * * * * /usr/local/bin/rti-diskusage > varl/log/rti-diskusage.log 2>&1[3;74H[K[4;1H[K[4;1H[?12l[?25h[24;1H[K[4;1H[?25l[?12l[?25h[?25l[1m[34m~                                                                               [3;1H[?12l[?25h[2;1H[m00 15 [?25l1 * * /usr/local/bin/rti-openports > /var/log/rti-ports.log 2>&1[2;71H[K[2;7H[?12l[?25h[?25l[24;1H:[?12l[?25hwq![?25l"/tmp/crontab.ZoOlmz" 3L, 184C written
+[?1l>[?12l[?25h[?1049lcrontab: installing new crontab
+"/tmp/crontab.ZoOlmz":1: bad day-of-month
+errors in crontab file, can't install.
+Do you want to retry the same edit? n
+crontab: edits left in /tmp/crontab.ZoOlmz
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# crontab -e
+no crontab for root - using an empty one
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/tmp/crontab.P0TNxB" 0L, 0C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h[?25l[m[24;1H[1m[37m[41mE348: No string under cursor[1;1H[?12l[?25h[?25l[?12l[?25h[?25l[m[24;1H[K[24;1H/usr/local/bin/rti-users[24;5H[K[24;1H[31msearch hit BOTTOM, continuing at TOP[m[1m[37m[41mE486: Pattern not found: usr[m[24;29H[K[1;1H[?12l[?25h[?25l[24;2H[1m[37m[41m348: No string under cursor[1;1H[?12l[?25h[?25l[?12l[?25h[?25l[m[24;1H[K[24;1H/usr/local/bin/rti-openports > /var/[?12l[?25hlog/rti-ports.log 2>&1[?25l[24;5H[K[24;1H[31msearch hit BOTTOM, continuing at TOP[m[1m[37m[41mE486: Pattern not found: usr[m[24;29H[K[1;1H[?12l[?25h[?25l[24;2H[1m[37m[41m348: No string under cursor[1;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[m[24;1H[K[24;1H/usr/local/bin/rti-disku[?12l[?25hsage > varl/log/rti-diskusage.log 2>&1[?25l[24;5H[K[24;1H[31msearch hit BOTTOM, continuing at TOP[m[1m[37m[41mE486: Pattern not found: usr[m[24;29H[K[1;1H[?12l[?25h[?25l[24;1H[1m--[m[1m[37m[41m8[m[1m INSERT[m[1m[37m[41mt[m[1m --[m[1m[37m[41mn[m[24;13H[K[1;1H[?12l[?25h[?25l00 18 0-7 * * /usr/local/bin/rti-users
+00 15 01 * * /usr/local/bin/rti-openports > /var/log/rti-ports.log 2>&1[2;72H[K[3;1H00 * * * * /usr/local/bin/rti-diskusage > varl/log/rti-diskusage.log 2>&1[3;74H[K[4;1H[K[4;1H[?12l[?25h[24;1H[K[4;1H[?25l[?12l[?25h[?25l[1m[34m~                                                                               [3;1H[?12l[?25h[2;1H[m00 15 [?25l1 * * /usr/local/bin/rti-openports > /var/log/rti-ports.log 2>&1[2;71H[K[2;7H[?12l[?25h[1;7H0[?25l7 * * /usr/local/bin/rti-users[1;38H[K[1;8H[?12l[?25h[?25l * * /usr/local/bin/rti-users[1;37H[K[1;8H[?12l[?25h[?25l[24;1H:[?12l[?25hwq![?25l"/tmp/crontab.P0TNxB" 3L, 182C written
+[?1l>[?12l[?25h[?1049lcrontab: installing new crontab
+"/tmp/crontab.P0TNxB":1: bad day-of-month
+errors in crontab file, can't install.
+Do you want to retry the same edit? n
+crontab: edits left in /tmp/crontab.P0TNxB
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# cd /et[K[Ktmp
+]0;root@as-41622:/tmp[0;33mroot@as-41622 [1;35mtmp[0m [0m# ls -al
+total 96
+drwxrwxrwt 19 root root 4096 Sep 12 14:23 [0m[30;42m.[0m
+dr-xr-xr-x 25 root root 4096 Sep 12 13:52 [01;34m..[0m
+-rw-------  1 root root  185 Sep 12 14:20 crontab.0WoExu
+-rw-------  1 root root  182 Sep 12 14:23 crontab.P0TNxB
+-rw-------  1 root root  185 Sep 12 14:17 crontab.Zm2tIY
+-rw-------  1 root root  184 Sep 12 14:22 crontab.ZoOlmz
+drwxrwxrwt  2 root root 4096 Sep 11 21:12 [30;42m.ICE-unix[0m
+drwxr-----  3 root root 4096 Jun  1 00:37 [01;34m.pki[0m
+-rw-r--r--  1 root root   19 Sep 11 21:20 shell.log
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.1dhUIF[0m
+drwx------  2 root root 4096 Sep 11 21:22 [01;34mta.1nY8Ou[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.2qvQAB[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.2x0Fcu[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.9xj7tK[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.G8FQ6a[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.iB0MMc[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.Npvhya[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.QAXv17[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.QhgR7d[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.Ttob3S[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.VlSXxZ[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.xacgas[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.XVHkza[0m
+drwx------  2 root root 4096 Sep 11 21:20 [01;34mta.zTml7f[0m
+[m]0;root@as-41622:/tmp[0;33mroot@as-41622 [1;35mtmp[0m [0m# cat crontab.0WoExu
+00 18 0-7 * * /usr/local/bin/rti-users
+00 15 01 * * /usr/local/bin/rti-openports > /var/log/rti-ports.log 2>&1
+00 * * * * /usr/local/bin/rti-diskusage > varl/log/rti-diskusage.log 2>&1
+]0;root@as-41622:/tmp[0;33mroot@as-41622 [1;35mtmp[0m [0m# cd
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# ifconfig -a
+eth0      Link encap:Ethernet  HWaddr BC:76:4E:10:8A:9C  
+          inet addr:23.253.40.208  Bcast:23.253.40.255  Mask:255.255.255.0
+          inet6 addr: 2001:4801:7824:103:be76:4eff:fe10:8a9c/64 Scope:Global
+          inet6 addr: fe80::be76:4eff:fe10:8a9c/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:109493 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84582 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:259106636 (247.1 MiB)  TX bytes:8615640 (8.2 MiB)
+          Interrupt:161 
+
+eth1      Link encap:Ethernet  HWaddr BC:76:4E:10:8A:FF  
+          inet addr:10.209.128.16  Bcast:10.209.159.255  Mask:255.255.224.0
+          inet6 addr: fe80::be76:4eff:fe10:8aff/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 b)  TX bytes:636 (636.0 b)
+          Interrupt:160 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:8184 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:8184 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:926700 (904.9 KiB)  TX bytes:926700 (904.9 KiB)
+
+tun-aib0  Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+          inet addr:192.168.17.14  P-t-P:192.168.17.14  Mask:255.255.252.0
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:500 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# cd /etc/sysconfig
+]0;root@as-41622:/etc/sysconfig[0;33mroot@as-41622 [1;35msysconfig[0m [0m# ls -al
+total 164
+drwxr-xr-x  7 root root 4096 Sep 11 21:22 [0m[01;34m.[0m
+drwxr-xr-x 71 root root 4096 Sep 12 13:50 [01;34m..[0m
+-rw-r-----  1 root root  992 Oct 15  2014 auditd
+drwxr-xr-x  2 root root 4096 Sep 11 21:18 [01;34mcbq[0m
+-rw-r--r--  1 root root  486 Jul 23 18:08 cgconfig
+-rw-r--r--  1 root root  950 Jul 23 18:08 cgred.conf
+-rw-r--r--  1 root root   15 Jun  1 00:37 clock
+drwxr-xr-x  2 root root 4096 Jul 24 08:14 [01;34mconsole[0m
+-rw-------  1 root root  110 Mar 30 08:22 crond
+-rw-r--r--  1 root root   16 Jun  1 00:37 firstboot
+-rw-r--r--  1 root root   26 Jun  1 00:37 grub
+-rw-r--r--  1 root root  529 Aug 18 05:57 htcacheclean
+-rw-r--r--  1 root root  947 Aug 18 05:57 httpd
+-rw-r--r--  1 root root   43 Jun 14 18:34 i18n
+-rw-r--r--  1 root root 1154 Jul 24 08:14 init
+-rw-r--r--  1 root root  545 Jun  1 00:37 ip6tables
+-rw-------  1 root root 1988 Jul 24 02:10 ip6tables-config
+-rw-r--r--  1 root root  543 Jun  1 00:37 iptables
+-rw-------  1 root root 1974 Jul 24 02:10 iptables-config
+-rw-r--r--  1 root root 1231 Jul 24 10:04 kdump
+-rw-r--r--  1 root root  180 Sep 11 21:19 kernel
+-rw-r--r--  1 root root   63 Jun  1 00:37 keyboard
+-rw-r--r--  1 root root  134 Sep 19  2012 lm_sensors
+drwxr-xr-x  2 root root 4096 Jul 24 08:14 [01;34mmodules[0m
+-rw-r--r--  1 root root 1695 Sep  3 03:24 named
+-rw-r--r--  1 root root  634 Jul 24 08:14 netconsole
+-rw-r--r--  1 root root   68 Sep 11 21:12 network
+-rw-r--r--  1 root root   30 Jun  1 00:37 network.1434306874.bak~
+-rw-r--r--  1 root root  100 Jun 14 18:34 network.1442005955.bak~
+drwxr-xr-x  4 root root 4096 Jul 24 08:14 [01;34mnetworking[0m
+drwxr-xr-x  2 root root 4096 Sep 11 21:18 [01;34mnetwork-scripts[0m
+-rw-r--r--  1 root root   85 Apr 28 10:11 ntpd
+-rw-r--r--  1 root root  167 Apr 28 10:11 ntpdate
+-rw-r--r--  1 root root 2585 May 20 14:18 raid-check
+-rw-r--r--  1 root root  659 Jul 24 08:14 readonly-root
+-rw-r--r--  1 root root  200 Dec 10  2014 rsyslog
+-rw-r--r--  1 root root  111 Jul 24 03:16 samba
+-rw-r--r--  1 root root  136 Jul 24 09:46 sandbox
+-rw-r--r--  1 root root  553 Feb 27  2015 saslauthd
+lrwxrwxrwx  1 root root   17 Jun  1 00:34 [01;36mselinux[0m -> ../selinux/config
+-rw-r-----  1 root root  438 Aug 13 09:58 sshd
+-rw-r--r--  1 root root  183 Jul 24 10:43 udev
+[m]0;root@as-41622:/etc/sysconfig[0;33mroot@as-41622 [1;35msysconfig[0m [0m# cd network
+-bash: cd: network: Not a directory
+]0;root@as-41622:/etc/sysconfig[0;33mroot@as-41622 [1;35msysconfig[0m [0m# l[Kcd nefw[K[Ktwork-scripts
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# ls -al
+total 236
+drwxr-xr-x 2 root root  4096 Sep 11 21:18 [0m[01;34m.[0m
+drwxr-xr-x 7 root root  4096 Sep 11 21:22 [01;34m..[0m
+-rw-r--r-- 1 root root   358 Sep 11 21:12 ifcfg-eth0
+-rw-r--r-- 1 root root    62 Jun  1 00:37 ifcfg-eth0.1434306874.bak~
+-rw-r--r-- 1 root root   359 Jun 14 18:34 ifcfg-eth0.1442005955.bak~
+-rw-r--r-- 1 root root   215 Sep 11 21:12 ifcfg-eth1
+-rw-r--r-- 1 root root   215 Jun 14 18:34 ifcfg-eth1.1442005955.bak~
+-rw-r--r-- 1 root root   254 Apr  9 16:44 ifcfg-lo
+lrwxrwxrwx 1 root root    20 Sep 11 21:18 [01;36mifdown[0m -> [01;32m../../../sbin/ifdown[0m
+-rwxr-xr-x 1 root root   627 Apr  9 16:44 [01;32mifdown-bnep[0m
+-rwxr-xr-x 1 root root  5594 Apr  9 16:44 [01;32mifdown-eth[0m
+-rwxr-xr-x 1 root root   781 Apr  9 16:44 [01;32mifdown-ippp[0m
+-rwxr-xr-x 1 root root  4168 Apr  9 16:44 [01;32mifdown-ipv6[0m
+lrwxrwxrwx 1 root root    11 Sep 11 21:18 [01;36mifdown-isdn[0m -> [01;32mifdown-ippp[0m
+-rwxr-xr-x 1 root root  1617 Apr  9 16:44 [01;32mifdown-post[0m
+-rwxr-xr-x 1 root root  1064 Apr  9 16:44 [01;32mifdown-ppp[0m
+-rwxr-xr-x 1 root root   835 Apr  9 16:44 [01;32mifdown-routes[0m
+-rwxr-xr-x 1 root root  1465 Apr  9 16:44 [01;32mifdown-sit[0m
+-rwxr-xr-x 1 root root  1434 Apr  9 16:44 [01;32mifdown-tunnel[0m
+lrwxrwxrwx 1 root root    18 Sep 11 21:18 [01;36mifup[0m -> [01;32m../../../sbin/ifup[0m
+-rwxr-xr-x 1 root root 12589 Apr  9 16:44 [01;32mifup-aliases[0m
+-rwxr-xr-x 1 root root   859 Apr  9 16:44 [01;32mifup-bnep[0m
+-rwxr-xr-x 1 root root 10948 Apr  9 16:44 [01;32mifup-eth[0m
+-rwxr-xr-x 1 root root 11971 Apr  9 16:44 [01;32mifup-ippp[0m
+-rwxr-xr-x 1 root root 10490 Apr  9 16:44 [01;32mifup-ipv6[0m
+lrwxrwxrwx 1 root root     9 Sep 11 21:18 [01;36mifup-isdn[0m -> [01;32mifup-ippp[0m
+-rwxr-xr-x 1 root root   727 Apr  9 16:44 [01;32mifup-plip[0m
+-rwxr-xr-x 1 root root   954 Apr  9 16:44 [01;32mifup-plusb[0m
+-rwxr-xr-x 1 root root  2364 Apr  9 16:44 [01;32mifup-post[0m
+-rwxr-xr-x 1 root root  4154 Apr  9 16:44 [01;32mifup-ppp[0m
+-rwxr-xr-x 1 root root  1925 Apr  9 16:44 [01;32mifup-routes[0m
+-rwxr-xr-x 1 root root  3289 Apr  9 16:44 [01;32mifup-sit[0m
+-rwxr-xr-x 1 root root  2563 Apr  9 16:44 [01;32mifup-tunnel[0m
+-rwxr-xr-x 1 root root  3951 Apr  9 16:44 [01;32mifup-wireless[0m
+-rwxr-xr-x 1 root root  4623 Apr  9 16:44 [01;32minit.ipv6-global[0m
+-rwxr-xr-x 1 root root  1219 Apr  9 16:44 [01;32mnet.hotplug[0m
+-rw-r--r-- 1 root root 14644 Apr  9 16:44 network-functions
+-rw-r--r-- 1 root root 29853 Apr  9 16:44 network-functions-ipv6
+-rw-r--r-- 1 root root   126 Sep 11 21:12 route-eth1
+-rw-r--r-- 1 root root   124 Jun 14 18:34 route-eth1.1442005955.bak~
+[m]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# cat ifcfg-eth1
+# Automatically generated, do not edit
+
+# Label private
+DEVICE=eth1
+BOOTPROTO=static
+HWADDR=bc:76:4e:10:8a:ff
+IPADDR=10.209.128.16
+NETMASK=255.255.224.0
+DNS1=173.203.4.9
+DNS2=173.203.4.8
+ONBOOT=yes
+NM_CONTROLLED=no
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# ifconfig -a
+eth0      Link encap:Ethernet  HWaddr BC:76:4E:10:8A:9C  
+          inet addr:23.253.40.208  Bcast:23.253.40.255  Mask:255.255.255.0
+          inet6 addr: 2001:4801:7824:103:be76:4eff:fe10:8a9c/64 Scope:Global
+          inet6 addr: fe80::be76:4eff:fe10:8a9c/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:109713 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:84719 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:259123876 (247.1 MiB)  TX bytes:8638984 (8.2 MiB)
+          Interrupt:161 
+
+eth1      Link encap:Ethernet  HWaddr BC:76:4E:10:8A:FF  
+          inet addr:10.209.128.16  Bcast:10.209.159.255  Mask:255.255.224.0
+          inet6 addr: fe80::be76:4eff:fe10:8aff/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 b)  TX bytes:636 (636.0 b)
+          Interrupt:160 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:8194 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:8194 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:928142 (906.3 KiB)  TX bytes:928142 (906.3 KiB)
+
+tun-aib0  Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+          inet addr:192.168.17.14  P-t-P:192.168.17.14  Mask:255.255.252.0
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:500 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# ifcfg-eth1[K[K[K[K[K[K[K[K[K[Kls -al |more
+total 236
+drwxr-xr-x 2 root root  4096 Sep 11 21:18 .
+drwxr-xr-x 7 root root  4096 Sep 11 21:22 ..
+-rw-r--r-- 1 root root   358 Sep 11 21:12 ifcfg-eth0
+-rw-r--r-- 1 root root    62 Jun  1 00:37 ifcfg-eth0.1434306874.bak~
+-rw-r--r-- 1 root root   359 Jun 14 18:34 ifcfg-eth0.1442005955.bak~
+-rw-r--r-- 1 root root   215 Sep 11 21:12 ifcfg-eth1
+-rw-r--r-- 1 root root   215 Jun 14 18:34 ifcfg-eth1.1442005955.bak~
+-rw-r--r-- 1 root root   254 Apr  9 16:44 ifcfg-lo
+lrwxrwxrwx 1 root root    20 Sep 11 21:18 ifdown -> ../../../sbin/ifdown
+-rwxr-xr-x 1 root root   627 Apr  9 16:44 ifdown-bnep
+-rwxr-xr-x 1 root root  5594 Apr  9 16:44 ifdown-eth
+-rwxr-xr-x 1 root root   781 Apr  9 16:44 ifdown-ippp
+-rwxr-xr-x 1 root root  4168 Apr  9 16:44 ifdown-ipv6
+lrwxrwxrwx 1 root root    11 Sep 11 21:18 ifdown-isdn -> ifdown-ippp
+-rwxr-xr-x 1 root root  1617 Apr  9 16:44 ifdown-post
+-rwxr-xr-x 1 root root  1064 Apr  9 16:44 ifdown-ppp
+-rwxr-xr-x 1 root root   835 Apr  9 16:44 ifdown-routes
+-rwxr-xr-x 1 root root  1465 Apr  9 16:44 ifdown-sit
+-rwxr-xr-x 1 root root  1434 Apr  9 16:44 ifdown-tunnel
+lrwxrwxrwx 1 root root    18 Sep 11 21:18 ifup -> ../../../sbin/ifup
+-rwxr-xr-x 1 root root 12589 Apr  9 16:44 ifup-aliases
+-rwxr-xr-x 1 root root   859 Apr  9 16:44 ifup-bnep
+[7m--More--[27m[K]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# cat ifcfg-eth1
+# Automatically generated, do not edit
+
+# Label private
+DEVICE=eth1
+BOOTPROTO=static
+HWADDR=bc:76:4e:10:8a:ff
+IPADDR=10.209.128.16
+NETMASK=255.255.224.0
+DNS1=173.203.4.9
+DNS2=173.203.4.8
+ONBOOT=yes
+NM_CONTROLLED=no
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# touch ifcfg-eth1 ifcfg-eth1:0[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp ifcfg-eth1 ifcfg-eth1:0
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# ls -al|more
+total 240
+drwxr-xr-x 2 root root  4096 Sep 12 14:32 .
+drwxr-xr-x 7 root root  4096 Sep 11 21:22 ..
+-rw-r--r-- 1 root root   358 Sep 11 21:12 ifcfg-eth0
+-rw-r--r-- 1 root root    62 Jun  1 00:37 ifcfg-eth0.1434306874.bak~
+-rw-r--r-- 1 root root   359 Jun 14 18:34 ifcfg-eth0.1442005955.bak~
+-rw-r--r-- 1 root root   215 Sep 11 21:12 ifcfg-eth1
+-rw-r--r-- 1 root root   215 Sep 12 14:32 ifcfg-eth1:0
+-rw-r--r-- 1 root root   215 Jun 14 18:34 ifcfg-eth1.1442005955.bak~
+-rw-r--r-- 1 root root   254 Apr  9 16:44 ifcfg-lo
+lrwxrwxrwx 1 root root    20 Sep 11 21:18 ifdown -> ../../../sbin/ifdown
+-rwxr-xr-x 1 root root   627 Apr  9 16:44 ifdown-bnep
+-rwxr-xr-x 1 root root  5594 Apr  9 16:44 ifdown-eth
+-rwxr-xr-x 1 root root   781 Apr  9 16:44 ifdown-ippp
+-rwxr-xr-x 1 root root  4168 Apr  9 16:44 ifdown-ipv6
+lrwxrwxrwx 1 root root    11 Sep 11 21:18 ifdown-isdn -> ifdown-ippp
+-rwxr-xr-x 1 root root  1617 Apr  9 16:44 ifdown-post
+-rwxr-xr-x 1 root root  1064 Apr  9 16:44 ifdown-ppp
+-rwxr-xr-x 1 root root   835 Apr  9 16:44 ifdown-routes
+-rwxr-xr-x 1 root root  1465 Apr  9 16:44 ifdown-sit
+-rwxr-xr-x 1 root root  1434 Apr  9 16:44 ifdown-tunnel
+lrwxrwxrwx 1 root root    18 Sep 11 21:18 ifup -> ../../../sbin/ifup
+-rwxr-xr-x 1 root root 12589 Apr  9 16:44 ifup-aliases
+[7m--More--[27m[K]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# vi ifcfg-eth1:0
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"ifcfg-eth1:0" 12L, 215C[1;1H# Automatically generated, do not edit
+
+# Label private
+DEVICE=eth1
+BOOTPROTO=static
+HWADDR=bc:76:4e:10:8a:ff
+IPADDR=10.209.128.16
+NETMASK=255.255.224.0
+DNS1=173.203.4.9
+DNS2=173.203.4.8
+ONBOOT=yes
+NM_CONTROLLED=no
+[1m[34m~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h
+
+
+
+
+
+[mIPADDR=1[?25l.209.128.16[7;20H[K[7;9H[?12l[?25h[?25l209.128.16[7;19H[K[7;9H[?12l[?25h[?25l09.128.16[7;18H[K[7;9H[?12l[?25h[?25l9.128.16[7;17H[K[7;9H[?12l[?25h[?25l.128.16[7;16H[K[7;9H[?12l[?25h[?25l128.16[7;15H[K[7;9H[?12l[?25h[?25l28.16[7;14H[K[7;9H[?12l[?25h[?25l8.16[7;13H[K[7;9H[?12l[?25h[?25l.16[7;12H[K[7;9H[?12l[?25h[?25l16[7;11H[K[7;9H[?12l[?25h[?25l6[7;10H[K[7;9H[?12l[?25h[?25l[7;9H[K[7;8H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[7;9H[?12l[?25h[?25l9[?12l[?25h[?25l2[?12l[?25h[?25l.[?12l[?25h[?25l1[?12l[?25h[?25l6[?12l[?25h[?25l8[?12l[?25h[?25l.[?12l[?25h[?25l2[?12l[?25h[?25l.[?12l[?25h[?25l5[?12l[?25h[?25l0[?12l[?25h[24;1H[K[7;19H[?25l[?12l[?25h[6;19H[?25l8a:f[6;24H[K[6;19H[?12l[?25h[?25la:f[6;23H[K[6;19H[?12l[?25h[?25l:f[6;22H[K[6;19H[?12l[?25h[?25lf[6;21H[K[6;19H[?12l[?25h[?25l[6;20H[K[6;19H[?12l[?25h[?25l[6;19H[K[6;18H[?12l[?25h[?25l[6;18H[K[6;17H[?12l[?25h[?25l[6;17H[K[6;16H[?12l[?25h[?25l[6;16H[K[6;15H[?12l[?25h[?25l[6;15H[K[6;14H[?12l[?25h[?25l[6;14H[K[6;13H[?12l[?25h[?25l[6;13H[K[6;12H[?12l[?25h[?25l[6;12H[K[6;11H[?12l[?25h[?25l[6;11H[K[6;10H[?12l[?25h[?25l[6;10H[K[6;9H[?12l[?25h[?25l[6;9H[K[6;8H[?12l[?25h[?25l[6;8H[K[6;7H[?12l[?25h[5;7H[4;7H=eth[?25l[24;1H[1m-- INSERT --[4;12H[?12l[?25h[?25l[m:[?12l[?25h[?25l0[?12l[?25h[24;1H[K[4;13H[?25l[?12l[?25h[?25l[24;1H:[?12l[?25hwq![?25l"ifcfg-eth1:0" 12L, 199C written
+[?1l>[?12l[?25h[?1049l]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# cat ifcfg-eth1:0
+# Automatically generated, do not edit
+
+# Label private
+DEVICE=eth1:0
+BOOTPROTO=static
+HWADDR=
+IPADDR=192.168.2.50
+NETMASK=255.255.224.0
+DNS1=173.203.4.9
+DNS2=173.203.4.8
+ONBOOT=yes
+NM_CONTROLLED=no
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# ifconfig eth1:0 192.168.2.50 netmask 255.255.224 .0
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# netstat[K[K[K[K[K[K[Kifconfig -a
+eth0      Link encap:Ethernet  HWaddr BC:76:4E:10:8A:9C  
+          inet addr:23.253.40.208  Bcast:23.253.40.255  Mask:255.255.255.0
+          inet6 addr: 2001:4801:7824:103:be76:4eff:fe10:8a9c/64 Scope:Global
+          inet6 addr: fe80::be76:4eff:fe10:8a9c/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:110310 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85091 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:259171070 (247.1 MiB)  TX bytes:8689954 (8.2 MiB)
+          Interrupt:161 
+
+eth1      Link encap:Ethernet  HWaddr BC:76:4E:10:8A:FF  
+          inet addr:10.209.128.16  Bcast:10.209.159.255  Mask:255.255.224.0
+          inet6 addr: fe80::be76:4eff:fe10:8aff/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 b)  TX bytes:636 (636.0 b)
+          Interrupt:160 
+
+eth1:0    Link encap:Ethernet  HWaddr BC:76:4E:10:8A:FF  
+          inet addr:192.168.2.50  Bcast:192.168.31.255  Mask:255.255.224.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          Interrupt:160 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:8266 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:8266 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:935874 (913.9 KiB)  TX bytes:935874 (913.9 KiB)
+
+tun-aib0  Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+          inet addr:192.168.17.14  P-t-P:192.168.17.14  Mask:255.255.252.0
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:500 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# eht[K[Kthtool eth1
+Settings for eth1:
+	Link detected: yes
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# ethtool eth0
+Settings for eth0:
+	Link detected: yes
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# ethtool eth1:0
+Settings for eth1:0:
+	Link detected: yes
+]0;root@as-41622:/etc/sysconfig/network-scripts[0;33mroot@as-41622 [1;35mnetwork-scripts[0m [0m# cd
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# cd /home
+]0;root@as-41622:/home[0;33mroot@as-41622 [1;35mhome[0m [0m# cd cbjdonald
+]0;root@as-41622:/home/cbjdonald[0;33mroot@as-41622 [1;35mcbjdonald[0m [0m# ls -a;
+[0m[01;34m.[0m  [01;34m..[0m  .bash_logout  .bash_profile  .bashrc
+[m]0;root@as-41622:/home/cbjdonald[0;33mroot@as-41622 [1;35mcbjdonald[0m [0m# ls -al
+total 20
+drwx------  2 cbjdonald users 4096 Sep 11 21:22 [0m[01;34m.[0m
+drwxr-xr-x 14 root      root  4096 Sep 12 13:50 [01;34m..[0m
+-rw-r--r--  1 cbjdonald users   18 Jul 23 18:55 .bash_logout
+-rw-r--r--  1 cbjdonald users  176 Jul 23 18:55 .bash_profile
+-rw-r--r--  1 cbjdonald users  124 Jul 23 18:55 .bashrc
+[m]0;root@as-41622:/home/cbjdonald[0;33mroot@as-41622 [1;35mcbjdonald[0m [0m# cd ..
+]0;root@as-41622:/home[0;33mroot@as-41622 [1;35mhome[0m [0m# ls -al
+total 56
+drwxr-xr-x 14 root      root     4096 Sep 12 13:50 [0m[01;34m.[0m
+dr-xr-xr-x 25 root      root     4096 Sep 12 13:52 [01;34m..[0m
+drwx------  2 alice     alice    4096 Sep 12 13:48 [01;34malice[0m
+drwx------  2 apache    apache   4096 Sep 11 21:21 [01;34mapache[0m
+drwx------  2 cbjalice  cbjalice 4096 Sep 12 13:57 [01;34mcbjalice[0m
+drwx------  2 cbjbrian  users    4096 Sep 11 21:22 [01;34mcbjbrian[0m
+drwx------  2 cbjchuck  users    4096 Sep 12 14:05 [01;34mcbjchuck[0m
+drwx------  2 cbjdonald users    4096 Sep 11 21:22 [01;34mcbjdonald[0m
+drwx------  3 centos    centos   4096 Jun 14 18:34 [01;34mcentos[0m
+drwx------  2 mysql     mysql    4096 Sep 11 21:21 [01;34mmysql[0m
+drwx------  2 rti4392   users    4096 Sep 11 21:22 [01;34mrti4392[0m
+drwx------  2 tdevcfb   users    4096 Sep 11 21:22 [01;34mtdevcfb[0m
+drwxr-xr-x  3 root      root     4096 Sep 11 21:15 [01;34mtroo[0m
+drwx------  2 tusercpb  users    4096 Sep 11 21:22 [01;34mtusercpb[0m
+[m]0;root@as-41622:/home[0;33mroot@as-41622 [1;35mhome[0m [0m# cd
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# cd
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# pwd
+/root
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# viw[Kew /etc/passwd
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/passwd" [readonly] 35L, 1586C[1;1Hroot:x:0:0:root:/root:/opt/bin/sudosh
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+saslauth:x:499:76:Saslauthd user:/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+centos:x:500:500:Cloud User:/home/centos:/bin/bash
+troo:x:0:0:TrueAbility Admin Account:/root:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+apache:x:48:48::/home/apache:/bin/bash[1;1H[?12l[?25h[?25l[24;1H[K[24;1H/[?12l[?25hcbjdonald[?25l[1;23r[1;1H[8M[1;24r[16;1Hnagios:x:498:498::/var/spool/nagios:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+mysql:x:501:501::/home/mysql:/bin/bash
+rti4392:x:502:100::/home/rti4392:/bin/bash
+cbjbrian:x:503:100::/home/cbjbrian:/bin/false
+cbjchuck:x:504:100::/home/cbjchuck:/bin/bash
+cbjdonald:x:505:100::/home/cbjdonald:/bin/bash[24;1H[K[23;1H[?12l[?25h[?25l
+:[?12l[?25hq![?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# view /etc/shadown[K
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/shadow" [readonly] 35L, 1351C[1;1Hroot:$1$oPN9HZkt$avW6IHmDCfMeqydlOAT92/:16587:0:99999:7:::
+bin:*:15980:0:99999:7:::
+daemon:*:15980:0:99999:7:::
+adm:*:15980:0:99999:7:::
+lp:*:15980:0:99999:7:::
+sync:*:15980:0:99999:7:::
+shutdown:*:15980:0:99999:7:::
+halt:*:15980:0:99999:7:::
+mail:*:15980:0:99999:7:::
+uucp:*:15980:0:99999:7:::
+operator:*:15980:0:99999:7:::
+games:*:15980:0:99999:7:::
+gopher:*:15980:0:99999:7:::
+ftp:*:15980:0:99999:7:::
+nobody:*:15980:0:99999:7:::
+vcsa:!!:16587::::::
+saslauth:!!:16587::::::
+postfix:!!:16587::::::
+sshd:!!:16587::::::
+centos:!!:16600:0:99999:7:::
+troo:!!:16600:0:99999:7:::
+named:!!:16689::::::
+apache:!!:16689:0:99999:7:::[1;1H[?12l[?25h[?25l[24;1H[K[24;1H/[?12l[?25hcbjdonald[?25l[1;23r[1;1H[11M[1;24r[13;1Hnagios:!!:16689::::::
+ntp:!!:16689::::::
+rpc:!!:16689:0:99999:7:::
+mysql:!!:16689:0:99999:7:::
+rti4392:!!:16689:0:99999:7:::
+cbjbrian:$6$IBvCtZM7$vDfhnhUeLL8VULw9cbxTvlrTIBMAejeeyfeOIj.ZgGGgzvtA4enknjKbDATT[19;1HiVAkcu/PEQssjg7nvpiFqYpnd11:16689:0:99999:7:::
+cbjchuck:$6$xhatNdOY$R4W00nKyNgd/ZfaIHJrx6m4Z4m7t7c79y0yP3G5q1xGcDCNAP0nFaN3mo7pp[21;1HrlRBjhdAZq/Kbuki1g9yxMAJTq/:16689:0:99999:7:::
+cbjdonald:!$6$4X.uuWHy$QUdLUqgfJ5Gq61VKZ3EgOYNBJ5RYNRiZMNgeNtBHSVkUKN4Q96zixORrll[23;1HxgIRtCbB91nPa0xnvRxPVaAb7pFU/:16689:0:99999:7::1:[24;1H[K[22;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Htusercpb:!!:16689:0:99999:7:::[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Htdevcfb:!!:16689:0:99999:7:::[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1Halice:$6$JYLtLHbY$SzDcSSYE32AnnM6sLknwTyAaCKd303w4bOUylDI1O24qY7syZyupfn6ThSIFnSS[23;1H3YyAXNYivpXCSGkYDf.6VGN.:16690:0:99999:7:::[22;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hcbjalice:!!:16690:0:99999:7:::[?12l[?25h[?25l
+:[?12l[?25hq![?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# vi /etc/shadow
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/shadow" [readonly] 35L, 1351C[1;1Hroot:$1$oPN9HZkt$avW6IHmDCfMeqydlOAT92/:16587:0:99999:7:::
+bin:*:15980:0:99999:7:::
+daemon:*:15980:0:99999:7:::
+adm:*:15980:0:99999:7:::
+lp:*:15980:0:99999:7:::
+sync:*:15980:0:99999:7:::
+shutdown:*:15980:0:99999:7:::
+halt:*:15980:0:99999:7:::
+mail:*:15980:0:99999:7:::
+uucp:*:15980:0:99999:7:::
+operator:*:15980:0:99999:7:::
+games:*:15980:0:99999:7:::
+gopher:*:15980:0:99999:7:::
+ftp:*:15980:0:99999:7:::
+nobody:*:15980:0:99999:7:::
+vcsa:!!:16587::::::
+saslauth:!!:16587::::::
+postfix:!!:16587::::::
+sshd:!!:16587::::::
+centos:!!:16600:0:99999:7:::
+troo:!!:16600:0:99999:7:::
+named:!!:16689::::::
+apache:!!:16689:0:99999:7:::[1;1H[?12l[?25h[?25l[24;1H[K[24;1H/[?12l[?25hcbjdonald[?25l[1;23r[1;1H[11M[1;24r[13;1Hnagios:!!:16689::::::
+ntp:!!:16689::::::
+rpc:!!:16689:0:99999:7:::
+mysql:!!:16689:0:99999:7:::
+rti4392:!!:16689:0:99999:7:::
+cbjbrian:$6$IBvCtZM7$vDfhnhUeLL8VULw9cbxTvlrTIBMAejeeyfeOIj.ZgGGgzvtA4enknjKbDATT[19;1HiVAkcu/PEQssjg7nvpiFqYpnd11:16689:0:99999:7:::
+cbjchuck:$6$xhatNdOY$R4W00nKyNgd/ZfaIHJrx6m4Z4m7t7c79y0yP3G5q1xGcDCNAP0nFaN3mo7pp[21;1HrlRBjhdAZq/Kbuki1g9yxMAJTq/:16689:0:99999:7:::
+cbjdonald:!$6$4X.uuWHy$QUdLUqgfJ5Gq61VKZ3EgOYNBJ5RYNRiZMNgeNtBHSVkUKN4Q96zixORrll[23;1HxgIRtCbB91nPa0xnvRxPVaAb7pFU/:16689:0:99999:7::1:[24;1H[K[22;1H[?12l[?25h[23;49H[?25l
+[31mW10: Warning: Changing a readonly file[m[23;48H:[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq![?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# pwd
+/root
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# ls -al
+total 52
+dr-xr-x---  6 root root 4096 Sep 12 13:54 [0m[01;34m.[0m
+dr-xr-xr-x 25 root root 4096 Sep 12 13:52 [01;34m..[0m
+-rw-------  1 root root 1801 Sep 12 14:08 .bash_history
+-rw-r--r--  1 root root   18 May 20  2009 .bash_logout
+-rw-rw-r--  1 root root  306 Sep 11 20:43 .bash_profile
+-rw-r--r--  1 root root  176 Sep 23  2004 .bashrc
+-rw-r--r--  1 root root  100 Sep 23  2004 .cshrc
+drwxr-xr-x  3 root root 4096 Sep 12 13:54 [01;34mdata[0m
+-r--------  1 root root   44 Sep 11 21:22 .madeline_was_here
+drwxr-xr-x  2 root root 4096 Sep 11 21:20 [01;34m.pip[0m
+drwxr-----  3 root root 4096 Sep 11 21:15 [01;34m.pki[0m
+drwx------  2 root root 4096 Jun 14 18:34 [01;34m.ssh[0m
+-rw-r--r--  1 root root  129 Dec  3  2004 .tcshrc
+[m]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# pwd
+/root
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# ls -ld [K[K[K[K[K[K[Kcd /etc
+]0;root@as-41622:/etc[0;33mroot@as-41622 [1;35metc[0m [0m# ls -al
+total 1444
+drwxr-xr-x 71 root root    4096 Sep 12 14:41 [0m[01;34m.[0m
+dr-xr-xr-x 25 root root    4096 Sep 12 13:52 [01;34m..[0m
+-rw-r--r--  1 root root      16 Jun  1 00:37 adjtime
+-rw-r--r--  1 root root    1512 Jan 12  2010 aliases
+-rw-r--r--  1 root root   12288 Jun 14 18:34 aliases.db
+drwxr-xr-x  2 root root    4096 Sep 11 21:21 [01;34malternatives[0m
+-rw-------  1 root root     541 Mar 30 08:22 anacrontab
+drwxr-xr-x  3 root root    4096 Jun 14 18:34 [01;34mapt[0m
+drwxr-x---  3 root root    4096 Jun  1 00:36 [01;34maudisp[0m
+drwxr-x---  3 root root    4096 Jun  1 00:36 [01;34maudit[0m
+drwxr-xr-x  2 root root    4096 Sep 11 21:18 [01;34mbash_completion.d[0m
+-rw-r--r--  1 root root    2681 Oct  2  2013 bashrc
+drwxr-xr-x  2 root root    4096 Sep 11 21:12 [01;34mblkid[0m
+-rw-r--r--  1 root root      27 Aug  3 16:13 centos-release
+-rw-r--r--  1 root root     812 Jul 23 18:08 cgconfig.conf
+drwxr-xr-x  2 root root    4096 Jul 23 18:08 [01;34mcgconfig.d[0m
+-rw-r--r--  1 root root     234 Jul 23 18:08 cgrules.conf
+-rw-r--r--  1 root root     131 Jul 23 18:08 cgsnapshot_blacklist.conf
+drwxr-xr-x  2 root root    4096 Mar 10  2015 [01;34mchkconfig.d[0m
+drwxr-xr-x  3 root root    4096 Sep 11 21:20 [01;34mcloud[0m
+drwxr-xr-x  2 root root    4096 Sep 11 21:22 [01;34mcron.d[0m
+drwxr-xr-x  2 root root    4096 Sep 27  2011 [01;34mcron.daily[0m
+-rw-------  1 root root       0 Mar 30 08:22 cron.deny
+drwxr-xr-x  2 root root    4096 Sep 11 21:22 [01;34mcron.hourly[0m
+drwxr-xr-x  2 root root    4096 Sep 27  2011 [01;34mcron.monthly[0m
+-rw-r--r--  1 root root     457 Sep 27  2011 crontab
+drwxr-xr-x  2 root root    4096 Sep 27  2011 [01;34mcron.weekly[0m
+-rw-r--r--  1 root root       0 Jun  1 00:33 crypttab
+-rw-r--r--  1 root root    1602 Oct  2  2013 csh.cshrc
+-rw-r--r--  1 root root     794 Oct  2  2013 csh.login
+-rw-r--r--  1 root root     381 Sep 11 21:21 db.computing.test
+drwxr-xr-x  3 root root    4096 Jun  1 00:34 [01;34mdbus-1[0m
+drwxr-xr-x  2 root root    4096 Sep 11 21:18 [01;34mdefault[0m
+drwxr-xr-x  2 root root    4096 Sep 11 21:18 [01;34mdepmod.d[0m
+drwxr-x---  3 root root    4096 Jul 24 07:50 [01;34mdhcp[0m
+-rw-r--r--  1 root root    4439 Jul 16  2014 DIR_COLORS
+-rw-r--r--  1 root root    5139 Jul 16  2014 DIR_COLORS.256color
+-rw-r--r--  1 root root    4113 Jul 16  2014 DIR_COLORS.lightbgcolor
+-rw-r--r--  1 root root     519 Jul 24 12:36 dracut.conf
+drwxr-xr-x  2 root root    4096 Jul 24 12:36 [01;34mdracut.conf.d[0m
+-rw-r--r--  1 root root       0 Oct  2  2013 environment
+-rw-r--r--  1 root root      28 May 10  2012 ethers
+-rw-r--r--  1 root root       0 Jan 12  2010 exports
+lrwxrwxrwx  1 root root      56 Jun  1 00:34 [01;36mfavicon.png[0m -> [01;35m/usr/share/icons/hicolor/16x16/apps/system-logo-icon.png[0m[K
+-rw-r--r--  1 root root      64 Oct  2  2013 filesystems
+drwxr-xr-x  4 root root    4096 Sep 11 21:21 [01;34mfonts[0m
+-rw-r--r--  1 root root     563 Jun  1 00:37 fstab
+-rw-r--r--  1 root root       0 Jul 25 11:40 gai.conf
+drwxr-xr-x  2 root root    4096 Oct 24  2013 [01;34mgcrypt[0m
+drwxr-xr-x  2 root root    4096 Jun 30  2014 [01;34mgnupg[0m
+-rw-r--r--  1 root root     602 Sep 12 13:50 group
+-rw-------  1 root root     586 Sep 12 13:45 group-
+lrwxrwxrwx  1 root root      22 Jun  1 00:37 [01;36mgrub.conf[0m -> ../boot/grub/grub.conf
+----------  1 root root     492 Sep 12 13:50 gshadow
+-rw-------  1 root root     479 Sep 12 13:45 gshadow-
+-rw-r--r--  1 root root     801 Jul 19  2011 gssapi_mech.conf
+-rw-r--r--  1 root root       9 Oct  2  2013 host.conf
+-rw-r--r--  1 root root     252 Sep 11 21:12 hosts
+-rw-r--r--  1 root root     370 Jan 12  2010 hosts.allow
+-rw-r--r--  1 root root     460 Jan 12  2010 hosts.deny
+drwxr-xr-x  4 root root    4096 Sep 11 21:21 [01;34mhttpd[0m
+drwxr-xr-x  2 root root    4096 Sep 11 21:18 [01;34minit[0m
+lrwxrwxrwx  1 root root      11 Sep 11 21:18 [01;36minit.d[0m -> [01;34mrc.d/init.d[0m
+-rw-r--r--  1 root root     884 Jul 24 08:14 inittab
+-rw-r--r--  1 root root     942 Jan 12  2010 inputrc
+drwxr-xr-x  2 root root    4096 Sep 11 21:18 [01;34miproute2[0m
+-rw-r--r--  1 root root      47 Aug  3 16:13 issue
+-rw-r--r--  1 root root      46 Aug  3 16:13 issue.net
+drwxr-xr-x  4 root root    4096 Jun  1 00:35 [01;34mkdump-adv-conf[0m
+-rw-r--r--  1 root root    8120 Sep 11 21:19 kdump.conf
+-rw-r--r--  1 root root     449 Apr 10 15:46 krb5.conf
+-rw-r--r--  1 root root   27927 Sep 11 21:22 ld.so.cache
+-rw-r--r--  1 root root      28 Jul 24  2013 ld.so.conf
+drwxr-xr-x  2 root root    4096 Sep 11 21:22 [01;34mld.so.conf.d[0m
+-rw-r-----  1 root root     191 Jun  3  2014 libaudit.conf
+-rw-r--r--  1 root root    2293 Jul 25 15:59 libuser.conf
+-rw-r--r--  1 root root     118 Jun  1 00:37 localtime
+-rw-r--r--  1 root root    1816 Mar 27 13:14 login.defs
+-rw-r--r--  1 root root     662 Aug 29  2007 logrotate.conf
+drwxr-xr-x  2 root root    4096 Sep 11 21:22 [01;34mlogrotate.d[0m
+-rw-r--r--  1 root root     111 Oct 15  2014 magic
+-rw-r--r--  1 root root     272 Nov 17  2009 mailcap
+-rw-r--r--  1 root root    1909 Dec 16  2014 mail.rc
+drwxr-xr-x  2 root root    4096 Jun  1 00:34 [01;34mmakedev.d[0m
+-rw-r--r--  1 root root   43591 Sep 23  2011 mime.types
+-rw-r--r--  1 root root     827 Jul 24 10:32 mke2fs.conf
+drwxr-xr-x  2 root root    4096 Sep 11 21:19 [01;34mmodprobe.d[0m
+-rw-r--r--  1 root root       0 Jan 12  2010 motd
+-rw-r--r--  1 root root     240 Sep 11 21:12 mtab
+-rw-r--r--  1 root root     251 Jun 22 13:08 my.cnf
+drwxrwxr-x  5 root root    4096 Sep 11 21:21 [01;34mnagios[0m
+drwxr-x---  2 root named   4096 Sep  3 03:24 [01;34mnamed[0m
+-rw-r-----  1 root named   1050 Sep 11 21:21 named.conf
+-rw-r--r--  1 root root      73 Sep 11 21:21 named.conf.computing.test
+-rw-r--r--  1 root named   2389 Sep  3 03:24 named.iscdlv.key
+-rw-r-----  1 root named    931 Jun 21  2007 named.rfc1912.zones
+-rw-r--r--  1 root named    487 Jul 19  2010 named.root.key
+-rw-r--r--  1 root root     767 Nov 30  2009 netconfig
+drwxr-xr-x  3 root root    4096 Jul 24 07:50 [01;34mNetworkManager[0m
+-rw-r--r--  1 root root      58 Jul 24 08:14 networks
+-rw-r--r--  1 root root    1688 May  4  2010 nsswitch.conf
+drwxr-xr-x  3 root root    4096 Sep 11 21:21 [01;34mntp[0m
+-rw-r--r--  1 root root    1778 Apr 28 10:11 ntp.conf
+drwxr-xr-x  3 root root    4096 Sep 11 21:18 [01;34mopenldap[0m
+drwxr-xr-x  2 root root    4096 Sep 23  2011 [01;34mopt[0m
+drwxr-xr-x  2 root root    4096 Sep 11 21:22 [01;34mpam.d[0m
+-rw-r--r--  1 root root    1586 Sep 12 13:50 passwd
+-rw-r--r--  1 root root    1541 Sep 12 13:45 passwd-
+-rw-r--r--  1 root root    1496 Sep 11 21:22 passwd.OLD
+drwxr-xr-x  2 root root    4096 Sep 11 21:21 [01;34mphp.d[0m
+-rw-r--r--  1 root root   69097 Jul  9 17:43 php.ini
+drwxr-xr-x  3 root root    4096 Jun  1 00:34 [01;34mpkcs11[0m
+drwxr-xr-x  9 root root    4096 Jun  1 00:34 [01;34mpki[0m
+drwxr-xr-x  2 root root    4096 Jun  1 00:34 [01;34mplymouth[0m
+drwxr-xr-x  5 root root    4096 Jun  1 00:33 [01;34mpm[0m
+drwxr-xr-x  2 root root    4096 Aug 21  2010 [01;34mpopt.d[0m
+drwxr-xr-x  2 root root    4096 Sep 11 21:20 [01;34mportreserve[0m
+drwxr-xr-x  2 root root    4096 Jun  1 00:34 [01;34mpostfix[0m
+drwxr-xr-x  3 root root    4096 Sep 11 21:18 [01;34mppp[0m
+drwxr-xr-x  2 root root    4096 Sep 11 21:18 [01;34mprelink.conf.d[0m
+-rw-r--r--  1 root root     233 Jan 12  2010 printcap
+-rw-r--r--  1 root root    1796 Oct  2  2013 profile
+drwxr-xr-x  2 root root    4096 Sep 11 21:20 [01;34mprofile.d[0m
+-rw-r--r--  1 root root    6455 Jan 12  2010 protocols
+-rw-------  1 root root       0 Jun  1 00:34 .pwd.lock
+-rw-r--r--  1 root root    6459 May 19  2010 qstat.cfg
+lrwxrwxrwx  1 root root       7 Sep 11 21:18 [01;36mrc[0m -> [01;32mrc.d/rc[0m
+lrwxrwxrwx  1 root root      10 Sep 11 21:18 [01;36mrc0.d[0m -> [01;34mrc.d/rc0.d[0m
+lrwxrwxrwx  1 root root      10 Sep 11 21:18 [01;36mrc1.d[0m -> [01;34mrc.d/rc1.d[0m
+lrwxrwxrwx  1 root root      10 Sep 11 21:18 [01;36mrc2.d[0m -> [01;34mrc.d/rc2.d[0m
+lrwxrwxrwx  1 root root      10 Sep 11 21:18 [01;36mrc3.d[0m -> [01;34mrc.d/rc3.d[0m
+lrwxrwxrwx  1 root root      10 Sep 11 21:18 [01;36mrc4.d[0m -> [01;34mrc.d/rc4.d[0m
+lrwxrwxrwx  1 root root      10 Sep 11 21:18 [01;36mrc5.d[0m -> [01;34mrc.d/rc5.d[0m
+lrwxrwxrwx  1 root root      10 Sep 11 21:18 [01;36mrc6.d[0m -> [01;34mrc.d/rc6.d[0m
+drwxr-xr-x 10 root root    4096 Sep 11 21:18 [01;34mrc.d[0m
+lrwxrwxrwx  1 root root      13 Sep 11 21:18 [01;36mrc.local[0m -> [01;32mrc.d/rc.local[0m
+lrwxrwxrwx  1 root root      15 Sep 11 21:18 [01;36mrc.sysinit[0m -> [01;32mrc.d/rc.sysinit[0m
+lrwxrwxrwx  1 root root      14 Sep 11 21:18 [01;36mredhat-release[0m -> centos-release
+-rw-r--r--  1 root root      46 Jun 14 18:34 resolv.conf
+-rw-r-----  1 root named     77 Sep 11 21:20 rndc.key
+-rw-r--r--  1 root root    1615 May  4  2010 rpc
+drwxr-xr-x  2 root root    4096 Sep 11 21:18 [01;34mrpm[0m
+-rw-r--r--  1 root root    2875 Dec 10  2014 rsyslog.conf
+drwxr-xr-x  2 root root    4096 Sep 11 21:20 [01;34mrsyslog.d[0m
+-rw-r--r--  1 root root     930 Jul 24 08:14 rwtab
+drwxr-xr-x  2 root root    4096 Jul 24 08:14 [01;34mrwtab.d[0m
+drwxr-xr-x  2 root root    4096 Sep 11 21:21 [01;34msamba[0m
+drwxr-xr-x  2 root root    4096 Jun  1 00:34 [01;34msasl2[0m
+-rw-------  1 root root     122 Jan 12  2010 securetty
+drwxr-xr-x  6 root root    4096 Sep 11 21:21 [01;34msecurity[0m
+drwxr-xr-x  3 root root    4096 Sep  3 14:57 [01;34mselinux[0m
+-rw-r--r--  1 root root    6845 Sep 25  2012 sensors3.conf
+-rw-r--r--  1 root root  641020 Oct  2  2013 services
+-rw-r--r--  1 root root     216 Jul 24 09:46 sestatus.conf
+----------  1 root root    1351 Sep 12 13:50 shadow
+----------  1 root root    1320 Sep 12 13:45 shadow-
+-rw-rw-r--  1 root root     122 Jun 13 00:36 shells
+drwxr-xr-x  2 root root    4096 Sep 11 21:18 [01;34mskel[0m
+drwxr-xr-x  2 root root    4096 Sep 11 21:19 [01;34mssh[0m
+drwxr-xr-x  2 root root    4096 Jun  1 00:34 [01;34mssl[0m
+-rw-r--r--  1 root root     212 Jul 24 08:14 statetab
+drwxr-xr-x  2 root root    4096 Jul 24 08:14 [01;34mstatetab.d[0m
+-rw-r-----  1 root root    1786 Sep 25  2012 sudo.conf
+-r--r-----  1 root root    3980 Jun 14 19:08 sudoers
+drwxr-x---  2 root root    4096 Aug 13 09:31 [01;34msudoers.d[0m
+-rw-r-----  1 root root    3181 Jul 29 12:04 sudo-ldap.conf
+-rw-rw-r--  1 root root     701 Sep 11 20:43 sudosh.conf
+drwxr-xr-x  7 root root    4096 Sep 11 21:22 [01;34msysconfig[0m
+-rw-r--r--  1 root root    1418 Jun 14 18:34 sysctl.conf
+-rw-r--r--  1 root root     998 Jul 24 08:14 sysctl.conf.rpmnew
+lrwxrwxrwx  1 root root      14 Sep 11 21:18 [01;36msystem-release[0m -> centos-release
+-rw-r--r--  1 root root      25 Aug  3 16:13 system-release-cpe
+drwxr-xr-x  2 root root    4096 Mar 16 08:53 [01;34mterminfo[0m
+drwxr-xr-x  4 root root    4096 Sep 11 21:18 [01;34mudev[0m
+-rw-r--r--  1 root root      37 Sep 11 21:20 uuid
+-rw-r--r--  1 root root    1982 Mar 31 15:07 virc
+-rw-r--r--  1 root root    4479 Oct 30  2014 wgetrc
+drwxr-xr-x  4 root root    4096 Sep 11 21:18 [01;34mX11[0m
+drwxr-xr-x  3 root root    4096 Jun  1 00:33 [01;34mxdg[0m
+drwxr-xr-x  2 root root    4096 Jun  1 00:34 [01;34mxinetd.d[0m
+drwxr-xr-x  5 root root    4096 Sep 11 21:18 [01;34myum[0m
+-rw-r--r--  1 root root     969 Jul 24 10:27 yum.conf
+drwxr-xr-x  2 root root    4096 Jul 24 10:27 [01;34myum.repos.d[0m
+[m]0;root@as-41622:/etc[0;33mroot@as-41622 [1;35metc[0m [0m# 

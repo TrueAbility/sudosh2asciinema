@@ -1,0 +1,254 @@
+]0;root@as-41622:~[?1034h[0;33mroot@as-41622 [1;35m~[0m [0m# useradd /data/home/cbj/alice
+useradd: invalid user name '/data/home/cbj/alice'
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# useradd alice
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# passwd alice
+Changing password for user alice.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# ls -ld alice
+ls: cannot access alice: No such file or directory
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# df -k
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/xvda1      20641404 1905324  17687556  10% /
+tmpfs             507264       0    507264   0% /dev/shm
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# cd /data
+-bash: cd: /data: No such file or directory
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# su - alice
+]0;alice@as-41622:~[?1034h[0;33malice@as-41622 [1;35m~[0m [0m$ sh
+[?1034h[0;33malice@as-41622 [1;35m~[0m [0m$ exit
+exit
+]0;alice@as-41622:~[0;33malice@as-41622 [1;35m~[0m [0m$ exit
+logout
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# useradd cbjalice
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# mkdir [K[K[K[K[K[Kpasswd [K[K[K[K[K[K[Kmkid[K[Kdir /cb[K[Kdata/home/[K[K[K[K[K[K[K[K[K[K[K[K[K /data/home/cbj/alice
+-bash: mkdi: command not found
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# mkdir /data/home/cbj/alice
+mkdir: cannot create directory `/data/home/cbj/alice': No such file or directory
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# cd [K[K[Kmkdir d[K/data
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# cd data
+-bash: cd: data: No such file or directory
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# df -k
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/xvda1      20641404 1905356  17687524  10% /
+tmpfs             507264       0    507264   0% /dev/shm
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# mkdir data
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# pwd
+/root
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# ls -al
+total 52
+dr-xr-x---  6 root root 4096 Sep 12 13:54 [0m[01;34m.[0m
+dr-xr-xr-x 25 root root 4096 Sep 12 13:52 [01;34m..[0m
+-rw-------  1 root root  273 Sep 11 21:27 .bash_history
+-rw-r--r--  1 root root   18 May 20  2009 .bash_logout
+-rw-rw-r--  1 root root  306 Sep 11 20:43 .bash_profile
+-rw-r--r--  1 root root  176 Sep 23  2004 .bashrc
+-rw-r--r--  1 root root  100 Sep 23  2004 .cshrc
+drwxr-xr-x  2 root root 4096 Sep 12 13:54 [01;34mdata[0m
+-r--------  1 root root   44 Sep 11 21:22 .madeline_was_here
+drwxr-xr-x  2 root root 4096 Sep 11 21:20 [01;34m.pip[0m
+drwxr-----  3 root root 4096 Sep 11 21:15 [01;34m.pki[0m
+drwx------  2 root root 4096 Jun 14 18:34 [01;34m.ssh[0m
+-rw-r--r--  1 root root  129 Dec  3  2004 .tcshrc
+[m]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# cd data
+]0;root@as-41622:~/data[0;33mroot@as-41622 [1;35mdata[0m [0m# mkdir home
+]0;root@as-41622:~/data[0;33mroot@as-41622 [1;35mdata[0m [0m# cd home
+]0;root@as-41622:~/data/home[0;33mroot@as-41622 [1;35mhome[0m [0m# mkdir cbj
+]0;root@as-41622:~/data/home[0;33mroot@as-41622 [1;35mhome[0m [0m# cd cbj
+]0;root@as-41622:~/data/home/cbj[0;33mroot@as-41622 [1;35mcbj[0m [0m# mkdir alice
+]0;root@as-41622:~/data/home/cbj[0;33mroot@as-41622 [1;35mcbj[0m [0m# pwd
+/root/data/home/cbj
+]0;root@as-41622:~/data/home/cbj[0;33mroot@as-41622 [1;35mcbj[0m [0m# mkdir cbjalice
+]0;root@as-41622:~/data/home/cbj[0;33mroot@as-41622 [1;35mcbj[0m [0m# pwd
+/root/data/home/cbj
+]0;root@as-41622:~/data/home/cbj[0;33mroot@as-41622 [1;35mcbj[0m [0m# ls -al
+total 16
+drwxr-xr-x 4 root root 4096 Sep 12 13:55 [0m[01;34m.[0m
+drwxr-xr-x 3 root root 4096 Sep 12 13:54 [01;34m..[0m
+drwxr-xr-x 2 root root 4096 Sep 12 13:54 [01;34malice[0m
+drwxr-xr-x 2 root root 4096 Sep 12 13:55 [01;34mcbjalice[0m
+[m]0;root@as-41622:~/data/home/cbj[0;33mroot@as-41622 [1;35mcbj[0m [0m# su cbjalice[K[K[K[K[K[K[K[K[K - cbjalice
+]0;cbjalice@as-41622:~[?1034h[0;33mcbjalice@as-41622 [1;35m~[0m [0m$ passwd
+Changing password for user cbjalice.
+Changing password for cbjalice.
+(current) UNIX password: 
+passwd: Authentication token manipulation error
+]0;cbjalice@as-41622:~[0;33mcbjalice@as-41622 [1;35m~[0m [0m$ chge[Ka[K[Kage -l cbjchuck
+chage: Permission denied.
+]0;cbjalice@as-41622:~[0;33mcbjalice@as-41622 [1;35m~[0m [0m$ exit
+logout
+]0;root@as-41622:~/data/home/cbj[0;33mroot@as-41622 [1;35mcbj[0m [0m# df -k
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/xvda1      20641404 1905392  17687488  10% /
+tmpfs             507264       0    507264   0% /dev/shm
+]0;root@as-41622:~/data/home/cbj[0;33mroot@as-41622 [1;35mcbj[0m [0m# cd [K[K[Kls -al
+total 16
+drwxr-xr-x 4 root root 4096 Sep 12 13:55 [0m[01;34m.[0m
+drwxr-xr-x 3 root root 4096 Sep 12 13:54 [01;34m..[0m
+drwxr-xr-x 2 root root 4096 Sep 12 13:54 [01;34malice[0m
+drwxr-xr-x 2 root root 4096 Sep 12 13:55 [01;34mcbjalice[0m
+[m]0;root@as-41622:~/data/home/cbj[0;33mroot@as-41622 [1;35mcbj[0m [0m# cd ..
+]0;root@as-41622:~/data/home[0;33mroot@as-41622 [1;35mhome[0m [0m# cd ../..
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# pwd
+/root
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# ls -al
+total 52
+dr-xr-x---  6 root root 4096 Sep 12 13:54 [0m[01;34m.[0m
+dr-xr-xr-x 25 root root 4096 Sep 12 13:52 [01;34m..[0m
+-rw-------  1 root root  273 Sep 11 21:27 .bash_history
+-rw-r--r--  1 root root   18 May 20  2009 .bash_logout
+-rw-rw-r--  1 root root  306 Sep 11 20:43 .bash_profile
+-rw-r--r--  1 root root  176 Sep 23  2004 .bashrc
+-rw-r--r--  1 root root  100 Sep 23  2004 .cshrc
+drwxr-xr-x  3 root root 4096 Sep 12 13:54 [01;34mdata[0m
+-r--------  1 root root   44 Sep 11 21:22 .madeline_was_here
+drwxr-xr-x  2 root root 4096 Sep 11 21:20 [01;34m.pip[0m
+drwxr-----  3 root root 4096 Sep 11 21:15 [01;34m.pki[0m
+drwx------  2 root root 4096 Jun 14 18:34 [01;34m.ssh[0m
+-rw-r--r--  1 root root  129 Dec  3  2004 .tcshrc
+[m]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# cd /etc
+]0;root@as-41622:/etc[0;33mroot@as-41622 [1;35metc[0m [0m# view passwd
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"passwd" [readonly] 35L, 1586C[1;1Hroot:x:0:0:root:/root:/opt/bin/sudosh
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+saslauth:x:499:76:Saslauthd user:/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+centos:x:500:500:Cloud User:/home/centos:/bin/bash
+troo:x:0:0:TrueAbility Admin Account:/root:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+apache:x:48:48::/home/apache:/bin/bash[1;1H[?12l[?25h[?25l[24;1H[K[24;1H/[?12l[?25hcbjchucj[?25l[24;9H[K[24;9H[?12l[?25hk[?25l[1;23r[1;1H[7M[1;24r[17;1Hnagios:x:498:498::/var/spool/nagios:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+mysql:x:501:501::/home/mysql:/bin/bash
+rti4392:x:502:100::/home/rti4392:/bin/bash
+cbjbrian:x:503:100::/home/cbjbrian:/bin/false
+cbjchuck:x:504:100::/home/cbjchuck:/bin/bash[24;1H[K[23;1H[?12l[?25h[?25l
+/[?12l[?25hcbjdonald[?25l[1;23r[23;1H
+[1;24r[23;1Hcbjdonald:x:505:100::/home/cbjdonald:/bin/bash[24;1H[K[23;1H[?12l[?25h[?25l
+/[?12l[?25hcbjalice[?25l[1;23r[1;1H[4M[1;24r[20;1Htusercpb:x:506:100::/home/tusercpb:/bin/bash
+tdevcfb:x:507:100::/home/tdevcfb:/bin/bash
+alice:x:508:508::/home/alice:/bin/bash
+cbjalice:x:509:509::/home/cbjalice:/bin/bash[24;1H[K[23;1H[?12l[?25h[?25l
+:[?12l[?25hq![?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;root@as-41622:/etc[0;33mroot@as-41622 [1;35metc[0m [0m# cd /home
+]0;root@as-41622:/home[0;33mroot@as-41622 [1;35mhome[0m [0m# ls -al
+total 56
+drwxr-xr-x 14 root      root     4096 Sep 12 13:50 [0m[01;34m.[0m
+dr-xr-xr-x 25 root      root     4096 Sep 12 13:52 [01;34m..[0m
+drwx------  2 alice     alice    4096 Sep 12 13:48 [01;34malice[0m
+drwx------  2 apache    apache   4096 Sep 11 21:21 [01;34mapache[0m
+drwx------  2 cbjalice  cbjalice 4096 Sep 12 13:57 [01;34mcbjalice[0m
+drwx------  2 cbjbrian  users    4096 Sep 11 21:22 [01;34mcbjbrian[0m
+drwx------  2 nobody    users    4096 Sep 11 21:22 [01;34mcbjchuck[0m
+drwx------  2 cbjdonald users    4096 Sep 11 21:22 [01;34mcbjdonald[0m
+drwx------  3 centos    centos   4096 Jun 14 18:34 [01;34mcentos[0m
+drwx------  2 mysql     mysql    4096 Sep 11 21:21 [01;34mmysql[0m
+drwx------  2 rti4392   users    4096 Sep 11 21:22 [01;34mrti4392[0m
+drwx------  2 tdevcfb   users    4096 Sep 11 21:22 [01;34mtdevcfb[0m
+drwxr-xr-x  3 root      root     4096 Sep 11 21:15 [01;34mtroo[0m
+drwx------  2 tusercpb  users    4096 Sep 11 21:22 [01;34mtusercpb[0m
+[m]0;root@as-41622:/home[0;33mroot@as-41622 [1;35mhome[0m [0m# vhown[K[K[K[K[Kchown cbjchun[Kck:users cbjchuck
+]0;root@as-41622:/home[0;33mroot@as-41622 [1;35mhome[0m [0m# ls -al
+total 56
+drwxr-xr-x 14 root      root     4096 Sep 12 13:50 [0m[01;34m.[0m
+dr-xr-xr-x 25 root      root     4096 Sep 12 13:52 [01;34m..[0m
+drwx------  2 alice     alice    4096 Sep 12 13:48 [01;34malice[0m
+drwx------  2 apache    apache   4096 Sep 11 21:21 [01;34mapache[0m
+drwx------  2 cbjalice  cbjalice 4096 Sep 12 13:57 [01;34mcbjalice[0m
+drwx------  2 cbjbrian  users    4096 Sep 11 21:22 [01;34mcbjbrian[0m
+drwx------  2 cbjchuck  users    4096 Sep 11 21:22 [01;34mcbjchuck[0m
+drwx------  2 cbjdonald users    4096 Sep 11 21:22 [01;34mcbjdonald[0m
+drwx------  3 centos    centos   4096 Jun 14 18:34 [01;34mcentos[0m
+drwx------  2 mysql     mysql    4096 Sep 11 21:21 [01;34mmysql[0m
+drwx------  2 rti4392   users    4096 Sep 11 21:22 [01;34mrti4392[0m
+drwx------  2 tdevcfb   users    4096 Sep 11 21:22 [01;34mtdevcfb[0m
+drwxr-xr-x  3 root      root     4096 Sep 11 21:15 [01;34mtroo[0m
+drwx------  2 tusercpb  users    4096 Sep 11 21:22 [01;34mtusercpb[0m
+[m]0;root@as-41622:/home[0;33mroot@as-41622 [1;35mhome[0m [0m# cd cbjchuck
+]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# ls -al
+total 20
+drwx------  2 cbjchuck users 4096 Sep 11 21:22 [0m[01;34m.[0m
+drwxr-xr-x 14 root     root  4096 Sep 12 13:50 [01;34m..[0m
+-rw-r--r--  1 nobody   users   18 Jul 23 18:55 .bash_logout
+-rw-r--r--  1 nobody   users  176 Jul 23 18:55 .bash_profile
+-rw-r--r--  1 nobody   users  124 Jul 23 18:55 .bashrc
+[m]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# chown -R chb[K[Kbjchuck: [Kusers *
+chown: cannot access `*': No such file or directory
+]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# chown -R cbjchuck:users .bach_la[Kogout[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kch[Kbjchuck_users .bach[K[Ksh_logout
+chown: invalid user: `cbjchuck_users'
+]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# cd
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# p[Ksu - cbjchuck
+]0;cbjchuck@as-41622:~[?1034h[0;33mcbjchuck@as-41622 [1;35m~[0m [0m$ pwd
+/home/cbjchuck
+]0;cbjchuck@as-41622:~[0;33mcbjchuck@as-41622 [1;35m~[0m [0m$ ls -al
+total 20
+drwx------  2 cbjchuck users 4096 Sep 11 21:22 [0m[01;34m.[0m
+drwxr-xr-x 14 root     root  4096 Sep 12 13:50 [01;34m..[0m
+-rw-r--r--  1 nobody   users   18 Jul 23 18:55 .bash_logout
+-rw-r--r--  1 nobody   users  176 Jul 23 18:55 .bash_profile
+-rw-r--r--  1 nobody   users  124 Jul 23 18:55 .bashrc
+[m]0;cbjchuck@as-41622:~[0;33mcbjchuck@as-41622 [1;35m~[0m [0m$ chown cbjchuck:users .bach_[K[K[Ksh_logout
+chown: changing ownership of `.bash_logout': Operation not permitted
+]0;cbjchuck@as-41622:~[0;33mcbjchuck@as-41622 [1;35m~[0m [0m$ exit
+logout
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# pwd
+/root
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# cd /home
+]0;root@as-41622:/home[0;33mroot@as-41622 [1;35mhome[0m [0m# ls
+[0m[01;34malice[0m   [01;34mcbjalice[0m  [01;34mcbjchuck[0m   [01;34mcentos[0m  [01;34mrti4392[0m  [01;34mtroo[0m
+[01;34mapache[0m  [01;34mcbjbrian[0m  [01;34mcbjdonald[0m  [01;34mmysql[0m   [01;34mtdevcfb[0m  [01;34mtusercpb[0m
+[m]0;root@as-41622:/home[0;33mroot@as-41622 [1;35mhome[0m [0m# cd cbjchuck
+]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# ls -a;
+[0m[01;34m.[0m  [01;34m..[0m  .bash_history  .bash_logout  .bash_profile  .bashrc
+[m]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# chown cbjchuch:users .bash_logout
+chown: invalid user: `cbjchuch:users'
+]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# chown cbjchuck_[K:users .bash_logout
+]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# chown cbjchuck_users .bash_profile
+chown: invalid user: `cbjchuck_users'
+]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# chown chb[K[Kbjchuck_[K:users .bash_profile
+]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# chown cbjchuck_users .bashrc
+chown: invalid user: `cbjchuck_users'
+]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# chown cbjchuck:users .bashrc
+]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# ls -al
+total 24
+drwx------  2 cbjchuck users 4096 Sep 12 14:05 [0m[01;34m.[0m
+drwxr-xr-x 14 root     root  4096 Sep 12 13:50 [01;34m..[0m
+-rw-------  1 cbjchuck users   50 Sep 12 14:05 .bash_history
+-rw-r--r--  1 cbjchuck users   18 Jul 23 18:55 .bash_logout
+-rw-r--r--  1 cbjchuck users  176 Jul 23 18:55 .bash_profile
+-rw-r--r--  1 cbjchuck users  124 Jul 23 18:55 .bashrc
+[m]0;root@as-41622:/home/cbjchuck[0;33mroot@as-41622 [1;35mcbjchuck[0m [0m# pas[K[K[Kcd
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# pwd
+/root
+]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# ls -a
+[0m[01;34m.[0m   .bash_history  .bash_profile  .cshrc  .madeline_was_here  [01;34m.pki[0m  .tcshrc
+[01;34m..[0m  .bash_logout   .bashrc        [01;34mdata[0m    [01;34m.pip[0m                [01;34m.ssh[0m
+[m]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# ls -al
+total 52
+dr-xr-x---  6 root root 4096 Sep 12 13:54 [0m[01;34m.[0m
+dr-xr-xr-x 25 root root 4096 Sep 12 13:52 [01;34m..[0m
+-rw-------  1 root root  273 Sep 11 21:27 .bash_history
+-rw-r--r--  1 root root   18 May 20  2009 .bash_logout
+-rw-rw-r--  1 root root  306 Sep 11 20:43 .bash_profile
+-rw-r--r--  1 root root  176 Sep 23  2004 .bashrc
+-rw-r--r--  1 root root  100 Sep 23  2004 .cshrc
+drwxr-xr-x  3 root root 4096 Sep 12 13:54 [01;34mdata[0m
+-r--------  1 root root   44 Sep 11 21:22 .madeline_was_here
+drwxr-xr-x  2 root root 4096 Sep 11 21:20 [01;34m.pip[0m
+drwxr-----  3 root root 4096 Sep 11 21:15 [01;34m.pki[0m
+drwx------  2 root root 4096 Jun 14 18:34 [01;34m.ssh[0m
+-rw-r--r--  1 root root  129 Dec  3  2004 .tcshrc
+[m]0;root@as-41622:~[0;33mroot@as-41622 [1;35m~[0m [0m# exit
