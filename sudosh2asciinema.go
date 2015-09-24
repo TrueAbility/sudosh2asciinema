@@ -16,12 +16,6 @@ type SudoshHistory struct {
 	ScriptFilename string
 }
 
-// one terminal interaction
-type Command struct {
-	Delay   string
-	Command string
-}
-
 type AsciinemaFile struct {
 	Filename string
 	Version  int               `json:"version"`
@@ -31,7 +25,7 @@ type AsciinemaFile struct {
 	Command  string            `json:"command"`
 	Title    string            `json:"title"`
 	Env      map[string]string `json:"env"`
-	StdOut   []Command         `json:"stdout"`
+	StdOut   [][]string        `json:"stdout"`
 }
 
 // Convert from SudoSH to Asciinema format
@@ -98,9 +92,9 @@ func findScriptTimeFilesInDir(directory string) ([]SudoshHistory, error) {
 }
 
 // combines the delay and command into one struct
-func mungeLines(timing *os.File, script *os.File) ([]Command, float64, error) {
+func mungeLines(timing *os.File, script *os.File) ([][]string, float64, error) {
 	duration := 0.0
-	var lines []Command
+	var lines [][]string
 	var err error
 	for {
 		var i int
@@ -119,9 +113,9 @@ func mungeLines(timing *os.File, script *os.File) ([]Command, float64, error) {
 			panic(err)
 		}
 
-		lines = append(lines, Command{
-			Delay:   fmt.Sprintf("%.6f", delay),
-			Command: string(b),
+		lines = append(lines, []string{
+			fmt.Sprintf("%.6f", delay),
+			string(b),
 		})
 		duration += delay
 	}
@@ -129,7 +123,7 @@ func mungeLines(timing *os.File, script *os.File) ([]Command, float64, error) {
 }
 
 // get a new asciifile struct
-func NewAsciiFile(output string, lines []Command, duration float64) *AsciinemaFile {
+func NewAsciiFile(output string, lines [][]string, duration float64) *AsciinemaFile {
 	ascii := &AsciinemaFile{
 		Filename: output,
 		Version:  1,
