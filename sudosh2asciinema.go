@@ -16,6 +16,20 @@ type SudoshHistory struct {
 	ScriptFilename string
 }
 
+type Command struct {
+	Delay   float64
+	Command []byte
+}
+
+func (command *Command) MarshalJSON() ([]byte, error) {
+	str, err := json.Marshal(string(command.Command))
+	if err != nil {
+		return str, err
+	}
+	json := fmt.Sprintf(`[%.6f, %s]`, command.Delay, str)
+	return []byte(json), nil
+}
+
 type AsciinemaFile struct {
 	Filename string
 	Version  int               `json:"version"`
@@ -25,7 +39,7 @@ type AsciinemaFile struct {
 	Command  string            `json:"command"`
 	Title    string            `json:"title"`
 	Env      map[string]string `json:"env"`
-	StdOut   [][]string        `json:"stdout"`
+	StdOut   []Command         `json:"stdout"`
 }
 
 // Convert from SudoSH to Asciinema format
@@ -94,9 +108,9 @@ func findScriptTimeFilesInDir(directory string) ([]SudoshHistory, error) {
 }
 
 // combines the delay and command into one struct
-func mungeLines(timing *os.File, script *os.File) ([][]string, float64, error) {
+func mungeLines(timing *os.File, script *os.File) ([]Command, float64, error) {
 	duration := 0.0
-	var lines [][]string
+	var lines []Command
 	var err error
 	for {
 		var i int
@@ -118,9 +132,9 @@ func mungeLines(timing *os.File, script *os.File) ([][]string, float64, error) {
 			panic(err)
 		}
 
-		lines = append(lines, []string{
-			fmt.Sprintf("%.6f", delay),
-			string(b),
+		lines = append(lines, Command{
+			Delay:   delay,
+			Command: b,
 		})
 		duration += delay
 	}
@@ -128,7 +142,7 @@ func mungeLines(timing *os.File, script *os.File) ([][]string, float64, error) {
 }
 
 // get a new asciifile struct
-func NewAsciiFile(output string, lines [][]string, duration float64) *AsciinemaFile {
+func NewAsciiFile(output string, lines []Command, duration float64) *AsciinemaFile {
 	ascii := &AsciinemaFile{
 		Filename: output,
 		Version:  1,
