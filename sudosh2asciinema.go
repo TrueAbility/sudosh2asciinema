@@ -59,6 +59,8 @@ func ConvertDirectory(directory string) error {
 	}
 	for _, sudoshFile := range sudoshfiles {
 		timestamp := FindTimeStampFromFilename(sudoshFile.TimeFilename)
+		fmt.Println("Processing sudosh file", timestamp)
+
 		filename := fmt.Sprintf("%s/%s.json", directory, timestamp)
 		sudoshFile.Convert(filename)
 	}
@@ -101,6 +103,9 @@ func mungeLines(timing *os.File, script *os.File) ([][]string, float64, error) {
 		var delay float64
 		var n int
 		n, err := fmt.Fscanln(timing, &delay, &i)
+		if i < 0 {
+			i = 0
+		}
 		if n == 0 || err != nil {
 			break
 		}
