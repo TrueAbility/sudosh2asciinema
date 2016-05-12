@@ -146,8 +146,8 @@ func NewAsciiFile(output string, lines []Command, duration float64) *AsciinemaFi
 	ascii := &AsciinemaFile{
 		Filename: output,
 		Version:  1,
-		Width:    100,
-		Height:   40,
+		Width:    132,
+		Height:   24,
 		Duration: duration,
 		Command:  "/opt/bin/sudosh",
 		Title:    "SudoSH",
