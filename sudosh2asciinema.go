@@ -88,7 +88,7 @@ func FindTimeStampFromFilename(filename string) string {
 }
 
 func findScriptTimeFilesInDir(directory string) ([]SudoshHistory, error) {
-	glob := fmt.Sprintf("%s/root-root-script-*", directory)
+	glob := fmt.Sprintf("%s/*-*-script-*", directory)
 	var collection []SudoshHistory
 	files, err := filepath.Glob(glob)
 	if err != nil {
